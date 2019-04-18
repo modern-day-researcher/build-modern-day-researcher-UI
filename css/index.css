@@ -147,6 +147,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  color: #edb948
 }
 h2 {
   font-size: 3.2rem;
@@ -177,6 +178,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+
+nav a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  vertical-align: middle;
+  height: 25px;
+  width: 75px;
+  color: #edb948;
+  background-color: #162e42;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #162e42;
+  background-color: #edb948;
+}
+
 @media (max-width: 500px) {
   .main-navigation {
     padding-bottom: 10px;
@@ -243,11 +262,11 @@ img {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #162e42;
 }
 .footer p {
   text-align: center;
-  color: #212529;
+  color:  #edb948;
   font-size: 1.6rem;
   padding: 20px;
 }
