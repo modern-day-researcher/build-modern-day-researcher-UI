@@ -147,7 +147,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
-  color: #edb948
+  color: #edb948;
 }
 h2 {
   font-size: 3.2rem;
@@ -181,12 +181,13 @@ img {
 
 nav a {
   display: block;
+  margin: 10px;
   text-align: center;
   font-size: 15px;
   vertical-align: middle;
-  height: 100px;
-  width: 400px;
-  color: #edb948;
+  height: 50px;
+  width: 100px;
+  color: white;
   background-color: #162e42;
   text-decoration: none;
 }
@@ -194,6 +195,10 @@ nav a {
 nav a:hover {
   color: #162e42;
   background-color: #edb948;
+}
+
+nav {
+  float:right;
 }
 
 @media (max-width: 500px) {
